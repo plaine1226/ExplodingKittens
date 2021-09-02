@@ -5,12 +5,11 @@ function generateCode() {
       rand.toString();
       gameCode = gameCode + rand;
     }
-  alert(gameCode);
+  switchPage();
 }
 
 function switchPage() {
-  var gameScreen = document.getElementById("gameScreen");
-  gameScreen.style.visibility="visible";
+  window.location.href = "gamepage.html";
 }
 
 document.getElementById("createGame").addEventListener("click", generateCode, true);
