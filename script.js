@@ -1,13 +1,16 @@
-function switchScreen() {
-  gameScreen.style.visibility="visible";
+function generateCode() {
+  var gameCode = "";
+    for (let i = 0; i < 6; i++) {
+      let rand = Math.floor(Math.random()*10);
+      rand.toString();
+      gameCode = gameCode + rand;
+    }
+  alert(gameCode);
 }
 
-function generateServer() {
-  
+function switchPage() {
+  document.getElementById("gameScreen");
+
 }
 
-var gameScreen = document.getElementById("gameScreen");
-
-gameScreen.style.visibility="hidden";
-
-document.getElementById("joinGame").addEventListener("click", generateServer());
+document.getElementById("createGame").addEventListener("click", generateServer, true);
