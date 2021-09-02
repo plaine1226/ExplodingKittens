@@ -1,0 +1,67 @@
+body {
+    background-color: firebrick;
+}
+
+#centerLogo {
+    src: "images/logo.png";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 60%;
+    height: auto;
+    top: 100px;
+}
+
+#joinAGame {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 55px;
+    position: relative;
+    color: rgb(255, 145, 0);
+    text-align: center;
+    top: 125px;
+}
+
+
+#gameCodeInput {
+    font-family: 'Courier New';
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    width: 40%;
+    height: 5%;
+    top: 368px;
+    left: 30%;
+}
+
+
+#joinGame {
+    font-family: 'Franklin Gothic Medium';
+    position: relative;
+    align-items: center;
+    top: 170px;
+    background-color: Transparent;
+    font-size: 25px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+#or {
+    position: relative;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 60px;
+    color: rgb(207, 209, 243);
+    text-align: center;
+    top: 150px;
+}
+
+#createGame {
+    position: relative;
+    align-items: center;
+    top: 125px;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium';
+    background-color: Transparent;
+    border: none;
+    color: rgb(110, 248, 110)
+}
