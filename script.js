@@ -9,8 +9,8 @@ function generateCode() {
 }
 
 function switchPage() {
-  document.getElementById("gameScreen");
-
+  var gameScreen = document.getElementById("gameScreen");
+  gameScreen.style.visibility="visible";
 }
 
-document.getElementById("createGame").addEventListener("click", generateServer, true);
+document.getElementById("createGame").addEventListener("click", generateCode, true);
